@@ -1,22 +1,24 @@
 import 'package:flutter/material.dart';
 
-class FosoScreen extends StatelessWidget {
-  const FosoScreen({Key? key}) : super(key: key);
+class ColinasPardasScreen extends StatelessWidget {
+  const ColinasPardasScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Foso de Saron'),
+        title: Text('Colinas Pardas'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          Image(image: AssetImage('assets/foso.jpg')),
+          Image(image: AssetImage('assets/colinas.jpg')),
           Container(
+            //padding: EdgeInsets.all(10),
+            margin: EdgeInsets.all(100),
             child: Column(
               children: [
-                Text("Mazmorra localizada en el ala oeste de la Ciudadela Corona de Hielo",style:TextStyle(fontSize: 40)),
+                Text("Las exuberantes y primitivas montañas de las Colinas Pardas presentan un abrupto contraste con los picos nevados que las separan del Fiordo Aquilonal al sur.",style:TextStyle(fontSize: 40)),
                 
               ],
             ),
@@ -27,7 +29,7 @@ class FosoScreen extends StatelessWidget {
             alignment: Alignment.center,
             child: Column(   
               children: [
-                Text('La mazmorra es un enorme foso que está siendo excavado por los siervos del Rey Exánime para extraer la saronita que hay en el subsuelo. La Plaga mantiene prisioneros aquí a numerosos prisioneros de la Alianza y la Horda, obligándolos a trabajar en la mina si no quieren ser convertidos en no-muertos.',style: TextStyle(fontSize: 20),),
+                Text('La zona tiene un aspecto otoñal, sin mucha nieve a pesar de que objetivamente hablando, el invierno dura todo el año. Los árboles son altos y gruesos y el suelo está lleno de agujas de pino que carraspean al pisarlas. El aire limpio produce una sensación agradable que se mezcla con el olor fresco de la tierra recién mojada. Las colinas tienen una elevación importante aunque gradual, lo que hace que se pueda acceder fácilmente sin recurrir a un equipo de escalada. Paisajisticamente hablando, es una de las regiones más bonitas en Rasganorte.',style: TextStyle(fontSize: 20),),
               ],
             ),
           ),
