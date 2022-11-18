@@ -1,2 +1,0 @@
-# DAM
-Certamen 2
